@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;900&display=swap');
+
+/*
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  crossed lines - background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 0.25px%3B stroke: %23ffffff%3B %7D%3C/style%3E%3Cline x1='0' y1='0' x2='100' y2='100' /%3E%3Cline x1='100' y1='0' x2='0' y2='100' /%3E%3C/svg%3E");
+
+  */
+img{
+  display: block;
+  width: 200px;
+  margin-left: 10%;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header{
+margin-left: 10%;
+margin-right: 10%;
+
+}
+header p{
+  text-align: left;
+} main{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+main h1{
+opacity: 2;
+z-index: 1;
+}
+main div{
+  margin: 15px;
+}
+.magna{
+  position: relative;
+  background: url(images/pic01.jpg);
+  background-size: contain;
+  width: 300px;
+  height: 300px;
+  color: white;
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  
+}
+.magna::after{
+  content: "";
+  position: absolute;
+width: 100%;
+height: 100%;
+top: 0%;
+left: 0%;
+opacity: 0.5;
+background-color: crimson;
+}
+.magna:hover{
+  width: 320px;
+  height: 320px;
+}
+.magna:hover::after{
+  opacity: 0.1;
+}
+
+.lorem {
+  background: url(images/pic02.jpg);
+  background-color: aqua;
+  width: 300px;
+  height: 300px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  position: relative;
+  transition: 0.5s;
+  background-position: center;
+  background-size: cover;
+}
+.lorem::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  opacity: 0.5;
+  background-color: skyblue;
+  
+}
+.lorem:hover {
+  width: 320px;
+  height: 320px;
+}
+
+.lorem:hover::after {
+  opacity: 0.1;
+}
+.feugiant{
+  position: relative;
+  background: url(images/pic03.jpg);
+  background-color: aqua;
+  width: 300px;
+  height: 300px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  transition: 0.5s;
+  background-position: center;
+  background-size: cover;
+}
+.feugiant::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  opacity: 0.5;
+  background-color: green;
+}
+.feugiant:hover {
+  width: 320px;
+  height: 320px;
+}
+.feugiant:hover::after {
+  opacity: 0.1;
+}
+.tempus{
+  position: relative;
+  background: url(images/pic04.jpg);
+  background-color: aqua;
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  transition: 0.5s;
+}
+.tempus::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  opacity: 0.5;
+  background-color: red;
+}
+.tempus:hover {
+  width: 320px;
+  height: 320px;
+}
+.tempus:hover::after {
+  opacity: 0.1;
+}
