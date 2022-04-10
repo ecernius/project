@@ -1,6 +1,7 @@
 *{
   margin: 0;
 padding: 0;
+font-family: Source Sans Pro
 }
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;900&display=swap');
 
@@ -12,9 +13,8 @@ padding: 0;
 img{
   display: block;
   width: 200px;
-  margin-left: 10%;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px 0;
+ 
 }
 body{
   display: flex;
@@ -35,6 +35,7 @@ header p{
 display: flex;
 align-items: center;
 flex-direction: column;
+text-transform: uppercase;
 }
 main h1{
 opacity: 2;
@@ -65,7 +66,7 @@ width: 100%;
 height: 100%;
 top: 0%;
 left: 0%;
-opacity: 0.5;
+opacity: 0.7;
 background-color: crimson;
 }
 .magna:hover{
@@ -73,7 +74,7 @@ background-color: crimson;
   height: 320px;
 }
 .magna:hover::after{
-  opacity: 0.1;
+  opacity: 0;
 }
 
 .lorem {
@@ -98,7 +99,7 @@ background-color: crimson;
   height: 100%;
   top: 0%;
   left: 0%;
-  opacity: 0.5;
+  opacity: 0.7;
   background-color: skyblue;
   
 }
@@ -108,7 +109,7 @@ background-color: crimson;
 }
 
 .lorem:hover::after {
-  opacity: 0.1;
+  opacity: 0.0;
 }
 .feugiant{
   position: relative;
@@ -132,7 +133,7 @@ background-color: crimson;
   height: 100%;
   top: 0%;
   left: 0%;
-  opacity: 0.5;
+  opacity: 0.7;
   background-color: green;
 }
 .feugiant:hover {
@@ -140,7 +141,7 @@ background-color: crimson;
   height: 320px;
 }
 .feugiant:hover::after {
-  opacity: 0.1;
+  opacity: 0;
 }
 .tempus {
   position: relative;
@@ -164,7 +165,7 @@ background-color: crimson;
   height: 100%;
   top: 0%;
   left: 0%;
-  opacity: 0.5;
+  opacity: 0.7;
   background-color: red;
 }
 .tempus:hover {
@@ -172,7 +173,7 @@ background-color: crimson;
   height: 320px;
 }
 .tempus:hover::after {
-  opacity: 0.1;
+  opacity: 0;
 }
 .aliquam {
   position: relative;
@@ -197,7 +198,7 @@ background-color: crimson;
   height: 100%;
   top: 0%;
   left: 0%;
-  opacity: 0.5;
+  opacity: 0.7;
   background-color: purple
 }
 
@@ -207,7 +208,7 @@ background-color: crimson;
 }
 
 .aliquam:hover::after {
-  opacity: 0.1;
+  opacity: 0;
 }
 .veroeros {
   position: relative;
@@ -232,7 +233,7 @@ background-color: crimson;
   height: 100%;
   top: 0%;
   left: 0%;
-  opacity: 0.5;
+  opacity: 0.7;
   background-color: blue;
 }
 
@@ -242,7 +243,7 @@ background-color: crimson;
 }
 
 .veroeros:hover::after {
-  opacity: 0.1;
+  opacity: 0;
 }
 .ipsum {
   position: relative;
@@ -267,7 +268,7 @@ background-color: crimson;
   height: 100%;
   top: 0%;
   left: 0%;
-  opacity: 0.5;
+  opacity: 0.7;
   background-color: lightblue;
 }
 
@@ -277,7 +278,7 @@ background-color: crimson;
 }
 
 .ipsum:hover::after {
-  opacity: 0.1;
+  opacity: 0;
 }
 .dolor {
   position: relative;
@@ -302,7 +303,7 @@ background-color: crimson;
   height: 100%;
   top: 0%;
   left: 0%;
-  opacity: 0.5;
+  opacity: 0.7;
   background-color: lightseagreen;
 }
 
@@ -312,7 +313,7 @@ background-color: crimson;
 }
 
 .dolor:hover::after {
-  opacity: 0.1;
+  opacity: 0;
 }
 .nullam {
   position: relative;
@@ -337,7 +338,7 @@ background-color: crimson;
   height: 100%;
   top: 0%;
   left: 0%;
-  opacity: 0.5;
+  opacity: 0.7;
   background-color: lightgreen;
 }
 
@@ -347,7 +348,7 @@ background-color: crimson;
 }
 
 .nullam:hover::after {
-  opacity: 0.1;
+  opacity: 0;
 }
 .ulricies {
   position: relative;
@@ -372,7 +373,7 @@ background-color: crimson;
   height: 100%;
   top: 0%;
   left: 0%;
-  opacity: 0.5;
+  opacity: 0.7;
   background-color: palevioletred;
 }
 
@@ -382,7 +383,7 @@ background-color: crimson;
 }
 
 .ulricies:hover::after {
-  opacity: 0.1;
+  opacity: 0;
 }
 .dictum {
   position: relative;
@@ -407,7 +408,7 @@ background-color: crimson;
   height: 100%;
   top: 0%;
   left: 0%;
-  opacity: 0.5;
+  opacity: 0.7;
   background-color: darkblue;
 }
 
@@ -417,7 +418,7 @@ background-color: crimson;
 }
 
 .dictum:hover::after {
-  opacity: 0.1;
+  opacity: 0;
 }
 .pretium {
   position: relative;
@@ -442,7 +443,7 @@ background-color: crimson;
   height: 100%;
   top: 0%;
   left: 0%;
-  opacity: 0.5;
+  opacity: 0.7;
   background-color: palevioletred;
 }
 
@@ -452,7 +453,7 @@ background-color: crimson;
 }
 
 .pretium:hover::after {
-  opacity: 0.1;
+  opacity: 0;
 }
 .none{
   display: none;
@@ -553,14 +554,13 @@ h2{
 
 
 
-@media (min-width:600px){
-  img{
-    margin-left: 20%;
-
-  }
+@media (min-width:700px){
+ 
   header{
     max-width: 1100px;
     margin: auto;
+    padding: 20px;
+    
   }
   main{
     max-width: 1100px;
